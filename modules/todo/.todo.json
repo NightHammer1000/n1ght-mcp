@@ -1,0 +1,12 @@
+[
+  {
+    "id": "869bc4ce-1f4b-4ed6-bd70-e31f7bb2a042",
+    "title": "My first task",
+    "description": "This is the description of my first task",
+    "rules": "These are the rules for my first task",
+    "instructions": "These are the instructions for my first task",
+    "priority": 10,
+    "status": "pending",
+    "progress": ""
+  }
+]

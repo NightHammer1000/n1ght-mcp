@@ -1,0 +1,7 @@
+{
+  "filesystem": {
+    "maxInputTokens": 50000,
+    "maxInputSize": 10485760,
+    "_comment": "maxInputTokens for text files (50K = safe default for Claude), maxInputSize in bytes for binary files (10MB)"
+  }
+}

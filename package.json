@@ -1,0 +1,37 @@
+{
+  "name": "n1ght-mcp",
+  "version": "1.0.0",
+  "description": "Modular MCP server with todo management, JSON/XML/TOML/YAML editing capabilities",
+  "main": "app.js",
+  "bin": {
+    "n1ght-mcp": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node client.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "todo",
+    "json",
+    "xml",
+    "toml", 
+    "yaml",
+    "editor",
+    "multifunction"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "uuid": "^11.1.0",
+    "ajv": "^8.17.1",
+    "fast-xml-parser": "^5.2.5",
+    "@iarna/toml": "^2.2.5",
+    "js-yaml": "^4.1.0",
+    "jsonpath-plus": "^10.3.0",
+    "@agnai/sentencepiece-js": "^1.1.1",
+    "@accessprotocol/tokenizers": "^0.3.3"
+  }
+}
